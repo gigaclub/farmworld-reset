@@ -1,0 +1,11 @@
+name: FarmworldReset
+version: 1.0
+main: gigaclub.farmworldreset.Main
+api-version: 1.13
+authors: [KevTVKevin]
+description: A Farmworld Reset Plugin
+website: https://GigaClub.net
+
+commands:
+  test:
+    description: /test
