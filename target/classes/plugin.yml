@@ -7,5 +7,5 @@ description: A Farmworld Reset Plugin
 website: https://GigaClub.net
 
 commands:
-  test:
-    description: /test
+  resetworld:
+    description: /resetworld

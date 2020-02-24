@@ -5,7 +5,3 @@ api-version: 1.13
 authors: [KevTVKevin]
 description: A Farmworld Reset Plugin
 website: https://GigaClub.net
-
-commands:
-  test:
-    description: /test

@@ -1,19 +1,26 @@
 package gigaclub.farmworldreset;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import net.md_5.bungee.api.plugin.Plugin;
 
-import java.util.Objects;
+public final class Main extends Plugin {
 
-public final class Main extends JavaPlugin {
+    public static Main plugin;
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-        System.out.println("Test");
+        setPlugin(this);
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+    }
+
+    public static Main getPlugin() {
+        return plugin;
+    }
+
+    private static void setPlugin(Main plugin) {
+        Main.plugin = plugin;
     }
 }
