@@ -42,9 +42,6 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputDirectory>
-                                C:\Users\kevin\Documents\GigaClub.net\Minecraft\FarmworldReset\testserver\plugins
-                            </outputDirectory>
                         </configuration>
                     </execution>
                 </executions>

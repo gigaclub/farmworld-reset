@@ -1,3 +1,7 @@
+gigaclub\farmworldreset\server\NormalFarmworld.class
+gigaclub\farmworldreset\commands\CommandInitPlugin.class
+gigaclub\farmworldreset\server\NetherFarmworld.class
+gigaclub\farmworldreset\server\Farmworld.class
 gigaclub\farmworldreset\Main.class
-gigaclub\farmworldreset\commands\ResetWorldCommand$1.class
-gigaclub\farmworldreset\commands\ResetWorldCommand.class
+gigaclub\farmworldreset\server\EndFarmworld.class
+gigaclub\farmworldreset\commands\CommandCreateFarmworld.class
