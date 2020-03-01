@@ -1,9 +1,12 @@
 package gigaclub.farmworldreset.commands;
 
 import gigaclub.farmworldreset.Main;
+import gigaclub.farmworldreset.server.EndFarmworld;
 import gigaclub.farmworldreset.server.Farmworld;
 import gigaclub.farmworldreset.server.NormalFarmworld;
+import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
+import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.plugin.Command;
 import net.md_5.bungee.config.Configuration;
 import systems.reformcloud.reformcloud2.executor.api.common.ExecutorAPI;
@@ -23,6 +26,7 @@ public class CommandInitPlugin extends Command {
     @Override
     public void execute(CommandSender sender, String[] args) {
         initStuff();
+        sender.sendMessage(new ComponentBuilder("inited Plugin").color(ChatColor.GREEN).create());
     }
 
     public void initStuff() {
@@ -49,17 +53,14 @@ public class CommandInitPlugin extends Command {
                 config.set("fwp.init", true);
             }
 
-            for(String s : mg.getSubGroups()) {
-                config.set("fwp." + mg.getName() + ".subgroups." + s , new ArrayList<Farmworld>());
-            }
-
-            Main.getPlugin().createServer();
             Main.getPlugin().saveConfig(config);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         Main.getPlugin().getProxy().getPluginManager().unregisterCommand(this);
+
+        Main.getPlugin().registerCommands();
 
     }
 }

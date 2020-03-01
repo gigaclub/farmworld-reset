@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3fb762c-d46a-42e7-8ae4-c0f53f565f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/commands/CommandCreateFarmworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/commands/CommandInitPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/EndFarmworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/Farmworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/NetherFarmworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/NormalFarmworld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/helper/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/gigaclub/farmworldreset/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/gigaclub/farmworldreset/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/commands/CommandCreateFarmworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/commands/CommandCreateFarmworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/commands/CommandInitPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/commands/CommandInitPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/EndFarmworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/EndFarmworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/Farmworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/Farmworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/NetherFarmworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/NetherFarmworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/NormalFarmworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gigaclub/farmworldreset/server/NormalFarmworld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/farmworld-reset-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/farmworld-reset-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,31 +117,39 @@
       <option name="project" value="LOCAL" />
       <updated>1582564734331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="functions to initialize plugin">
+      <created>1583004826664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583004826664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="restart with bungeecord and reformcloud api" />
-    <option name="LAST_COMMIT_MESSAGE" value="restart with bungeecord and reformcloud api" />
+    <MESSAGE value="functions to initialize plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions to initialize plugin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="328" width="1543" height="867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580047711237">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="328" width="1543" height="867" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1580047711237" />
-    <state x="997" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1583003839353">
+    <state x="997" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1583053946589">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="997" y="274" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583003839353" />
+    <state x="997" y="274" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583053946589" />
     <state x="967" y="489" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582470979380">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="967" y="489" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1582470979380" />
-    <state x="913" y="304" key="CommitChangelistDialog2" timestamp="1582564733657">
+    <state x="913" y="304" key="CommitChangelistDialog2" timestamp="1583055803136">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="913" y="304" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1582564733657" />
+    <state x="913" y="304" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583055803136" />
     <state x="1117" y="410" key="EnvironmentVariablesDialog" timestamp="1580047702178">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -156,30 +158,30 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="960" y="400" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1582992499297" />
-    <state width="1951" height="256" key="GridCell.Tab.0.bottom" timestamp="1583004187728">
+    <state width="1951" height="256" key="GridCell.Tab.0.bottom" timestamp="1583055803172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1951" height="256" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583004187728" />
-    <state width="1951" height="256" key="GridCell.Tab.0.center" timestamp="1583004187728">
+    <state width="1951" height="256" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583055803172" />
+    <state width="1951" height="256" key="GridCell.Tab.0.center" timestamp="1583055803172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1951" height="256" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583004187728" />
-    <state width="1951" height="256" key="GridCell.Tab.0.left" timestamp="1583004187728">
+    <state width="1951" height="256" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583055803172" />
+    <state width="1951" height="256" key="GridCell.Tab.0.left" timestamp="1583055803172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1951" height="256" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583004187728" />
-    <state width="1951" height="256" key="GridCell.Tab.0.right" timestamp="1583004187728">
+    <state width="1951" height="256" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583055803172" />
+    <state width="1951" height="256" key="GridCell.Tab.0.right" timestamp="1583055803172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1951" height="256" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583004187728" />
+    <state width="1951" height="256" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583055803172" />
     <state x="504" y="63" key="SettingsEditor" timestamp="1580046392211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="504" y="63" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1580046392211" />
-    <state x="667" y="522" key="Vcs.Push.Dialog.v2" timestamp="1582564736736">
+    <state x="667" y="522" key="Vcs.Push.Dialog.v2" timestamp="1583004849686">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="667" y="522" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1582564736736" />
+    <state x="667" y="522" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583004849686" />
     <state x="1070" y="671" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582996477761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -188,5 +190,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="290" y="403" width="1814" height="822" key="new project wizard/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1581417466307" />
+    <state x="500" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1583054414317">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="500" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1583054414317" />
   </component>
 </project>

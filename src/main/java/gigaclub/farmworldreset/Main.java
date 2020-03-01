@@ -21,7 +21,15 @@ public final class Main extends Plugin {
         createConfig();
         initConfig();
 
-        registerCommands();
+        try {
+            Configuration config = loadConfig();
+            if(config.getBoolean("fwp.init")) {
+                registerCommands();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
